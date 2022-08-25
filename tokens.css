@@ -1,72 +1,72 @@
 
 /* colors */
 :root {
-  --primary-primary-dark: #0959bb;
-  --primary-primary-main: #308cfe;
-  --primary-primary-light: #73b2ff;
+  --color-primary-primary-dark: #0959bb;
+  --color-primary-primary-main: #308cfe;
+  --color-primary-primary-light: #73b2ff;
 }
 
 /* fonts */
 :root {        
---primary-font: Roboto;
+--typo-primary-font: Roboto;
 }
 /* text styles*/
-.display-1 {
-  font-family : var(--primary-font);
+.typo-display-1 {
+  font-family : var(--typo-primary-font);
   font-size : 48px;
   line-height: 57px;
   letter-spacing : 0.1em;
 }
-.display-2 {
-  font-family : var(--primary-font);
+.typo-display-2 {
+  font-family : var(--typo-primary-font);
   font-size : 40px;
   line-height: 48px;
   letter-spacing : 0.1em;
 }
-.h-1 {
-  font-family : var(--primary-font);
+.typo-h-1 {
+  font-family : var(--typo-primary-font);
   font-size : 33px;
   line-height: 40px;
   letter-spacing : 0.1em;
 }
-.h-2 {
-  font-family : var(--primary-font);
+.typo-h-2 {
+  font-family : var(--typo-primary-font);
   font-size : 28px;
   line-height: 35px;
   letter-spacing : 0.1em;
 }
-.h-3 {
-  font-family : var(--primary-font);
+.typo-h-3 {
+  font-family : var(--typo-primary-font);
   font-size : 23px;
   line-height: 29px;
   letter-spacing : 0.1em;
 }
-.h-4 {
-  font-family : var(--primary-font);
+.typo-h-4 {
+  font-family : var(--typo-primary-font);
   font-size : 19px;
   line-height: 25px;
   letter-spacing : 0.1em;
 }
-.h-5 {
-  font-family : var(--primary-font);
+.typo-h-5 {
+  font-family : var(--typo-primary-font);
   font-size : 16px;
   line-height: 22px;
   letter-spacing : 0.1em;
 }
-.body {
-  font-family : var(--primary-font);
+.typo-body {
+  font-family : var(--typo-primary-font);
   font-size : 16px;
   line-height: 22px;
   letter-spacing : 0.1em;
 }
-.small {
-  font-family : var(--primary-font);
+.typo-small {
+  font-family : var(--typo-primary-font);
   font-size : 13px;
   line-height: 18px;
   letter-spacing : 0.1em;
 }
-.x-small {
-  font-family : var(--primary-font);
+.typo-x-small {
+  font-family : var(--typo-primary-font);
   font-size : 11px;
   line-height: 16px;
   letter-spacing : 0.1em;
@@ -74,12 +74,12 @@
 
 /* SpacePatterns */
 :root {
-  --none: 0px;
-  --xx-small: 2px;
-  --x-small: 4px;
-  --small: 8px;
-  --regular: 16px;
-  --large: 32px;
-  --x-large: 64px;
-  --xx-large: 128px;
+  --spacing-none: 0px;
+  --spacing-xx-small: 2px;
+  --spacing-x-small: 4px;
+  --spacing-small: 8px;
+  --spacing-regular: 16px;
+  --spacing-large: 32px;
+  --spacing-x-large: 64px;
+  --spacing-xx-large: 128px;
 }
