@@ -13,62 +13,62 @@
 /* text styles*/
 .typo-display-1 {
   font-family : var(--typo-primary-font);
-  font-size : 95px;
-  line-height: 109px;
+  font-size : 62px;
+  line-height: 72px;
   letter-spacing : 0.1em;
 }
 .typo-display-2 {
   font-family : var(--typo-primary-font);
-  font-size : 72px;
-  line-height: 83px;
+  font-size : 46px;
+  line-height: 55px;
   letter-spacing : 0.1em;
 }
 .typo-h-1 {
   font-family : var(--typo-primary-font);
-  font-size : 54px;
-  line-height: 63px;
+  font-size : 35px;
+  line-height: 43px;
   letter-spacing : 0.1em;
 }
 .typo-h-2 {
   font-family : var(--typo-primary-font);
-  font-size : 40px;
-  line-height: 48px;
+  font-size : 26px;
+  line-height: 33px;
   letter-spacing : 0.1em;
 }
 .typo-h-3 {
   font-family : var(--typo-primary-font);
-  font-size : 30px;
-  line-height: 37px;
+  font-size : 195px;
+  line-height: 219px;
   letter-spacing : 0.1em;
 }
 .typo-h-4 {
   font-family : var(--typo-primary-font);
-  font-size : 23px;
-  line-height: 29px;
+  font-size : 15px;
+  line-height: 21px;
   letter-spacing : 0.1em;
 }
 .typo-h-5 {
   font-family : var(--typo-primary-font);
-  font-size : 17px;
-  line-height: 23px;
+  font-size : 11px;
+  line-height: 16px;
   letter-spacing : 0.1em;
 }
 .typo-body {
   font-family : var(--typo-primary-font);
-  font-size : 17px;
-  line-height: 23px;
+  font-size : 11px;
+  line-height: 16px;
   letter-spacing : 0.1em;
 }
 .typo-small {
   font-family : var(--typo-primary-font);
-  font-size : 13px;
-  line-height: 18px;
+  font-size : 8px;
+  line-height: 13px;
   letter-spacing : 0.1em;
 }
 .typo-x-small {
   font-family : var(--typo-primary-font);
-  font-size : 10px;
-  line-height: 15px;
+  font-size : 6px;
+  line-height: 11px;
   letter-spacing : 0.1em;
 }
 
