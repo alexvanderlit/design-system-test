@@ -37,8 +37,8 @@
 }
 .typo-h-3 {
   font-family : var(--typo-primary-font);
-  font-size : 195px;
-  line-height: 219px;
+  font-size : 1px;
+  line-height: 5px;
   letter-spacing : 0.1em;
 }
 .typo-h-4 {
