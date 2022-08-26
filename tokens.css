@@ -1,26 +1,46 @@
 @import "output/css/_variables.css";
 
-.footer__column-title h3, a, body .cookiewall__cookiewall .content h2 {
+.footer__column-title h3, a, footer .footer__column-title a:hover, body .cookiewall__cookiewall .content h2 {
   color:var(--global-primary-primary-main)
 }
 
-
-.btn-outline-primary, .btn-primary,.btn-primary:hover {
+.btn-outline-primary, .btn-primary,.btn-primary:hover, .btn-dark, .btn-outline-dark, .btn-dark:hover {
   background-color:var(--global-primary-primary-main)
 }
 
 
-
-
-
-
-.btn-dark, .btn-outline-dark, .btn-dark:hover {
-  background-color:var(--global-primary-secondary-main)
+h1, h2, h3, h4 {
+  color: var(--global-primary-secondary-main);
 }
-
+.vfz-heading__h1--sub {
+  color:#fff;
+}
 
 
 
 .text-dark, .text-black, a.text-black:focus, a.text-black:hover, a.text-dark:focus, a.text-dark:hover, .vfz-list--link .vfz-list__link-title {
   color:var(--global-primary-tertiary-main)!important;
+}
+
+
+
+
+body {
+  background-color: var(--global-body-background);
+}
+
+.bg-white {
+  /*background-color: #333;*/
+  background-color: var(--global-card-background);
+
+}
+
+
+.vfz-hero-container.bg-white {
+  background-color: var(--global-body-background-main);
+  /*background-color: #000;*/
+}
+.vfz-hero-container.bg-light {
+  background-color: var(--global-body-background-light);
+  /*background-color: #111;*/
 }
