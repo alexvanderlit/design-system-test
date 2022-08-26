@@ -1,0 +1,13 @@
+name: Generate Tokens On Input
+
+on:
+  pull_request:
+    paths:	
+      - 'tokens/tokens.json'
+
+jobs:
+  generate_tokens:
+    runs-on: macos-latest
+    steps:
+    - name: Build Style Dictionary
+      run: style-dictionary build
