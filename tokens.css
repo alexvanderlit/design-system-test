@@ -1,85 +1,26 @@
+@import "build/css/_variables.css";
 
-/* colors */
-:root {
-  --color-primary-primary-dark: #0959bb;
-  --color-primary-primary-main: #308cfe;
-  --color-primary-primary-light: #73b2ff;
+.footer__column-title h3, a, body .cookiewall__cookiewall .content h2 {
+  color:var(--global-primary-primary-main)
 }
 
-/* fonts */
-:root {        
---typo-primary-font: Roboto;
-}
-/* text styles*/
-.typo-display-1 {
-  font-family : var(--typo-primary-font);
-  font-size : 62px;
-  line-height: 72px;
-  letter-spacing : 0.1em;
-}
-.typo-display-2 {
-  font-family : var(--typo-primary-font);
-  font-size : 46px;
-  line-height: 55px;
-  letter-spacing : 0.1em;
-}
-.typo-h-1 {
-  font-family : var(--typo-primary-font);
-  font-size : 35px;
-  line-height: 43px;
-  letter-spacing : 0.1em;
-}
-.typo-h-2 {
-  font-family : var(--typo-primary-font);
-  font-size : 26px;
-  line-height: 33px;
-  letter-spacing : 0.1em;
-}
-.typo-h-3 {
-  font-family : var(--typo-primary-font);
-  font-size : 1px;
-  line-height: 5px;
-  letter-spacing : 0.1em;
-}
-.typo-h-4 {
-  font-family : var(--typo-primary-font);
-  font-size : 15px;
-  line-height: 21px;
-  letter-spacing : 0.1em;
-}
-.typo-h-5 {
-  font-family : var(--typo-primary-font);
-  font-size : 11px;
-  line-height: 16px;
-  letter-spacing : 0.1em;
-}
-.typo-body {
-  font-family : var(--typo-primary-font);
-  font-size : 11px;
-  line-height: 16px;
-  letter-spacing : 0.1em;
-}
-.typo-small {
-  font-family : var(--typo-primary-font);
-  font-size : 8px;
-  line-height: 13px;
-  letter-spacing : 0.1em;
-}
-.typo-x-small {
-  font-family : var(--typo-primary-font);
-  font-size : 6px;
-  line-height: 11px;
-  letter-spacing : 0.1em;
+
+.btn-outline-primary, .btn-primary,.btn-primary:hover {
+  background-color:var(--global-primary-primary-main)
 }
 
-/* SpacePatterns */
-:root {
-  --spacing-none: 0px;
-  --spacing-xx-small: 2px;
-  --spacing-x-small: 4px;
-  --spacing-small: 8px;
-  --spacing-regular: 16px;
-  --spacing-large: 32px;
-  --spacing-x-large: 64px;
-  --spacing-xx-large: 128px;
+
+
+
+
+
+.btn-dark, .btn-outline-dark, .btn-dark:hover {
+  background-color:var(--global-primary-secondary-main)
+}
+
+
+
+
+.text-dark, .text-black, a.text-black:focus, a.text-black:hover, a.text-dark:focus, a.text-dark:hover, .vfz-list--link .vfz-list__link-title {
+  color:var(--global-primary-tertiary-main)!important;
 }
