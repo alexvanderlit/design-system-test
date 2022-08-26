@@ -1,13 +1,14 @@
 name: Generate Tokens On Input
 
 on:
-  pull_request:
-    paths:	
-      - 'tokens/tokens.json'
+  schedule:
+  - cron: "0 6 * * 1-5"
 
 jobs:
   generate_tokens:
     runs-on: macos-latest
     steps:
+    - name: Install Dependencies
+      run: npm install
     - name: Build Style Dictionary
       run: style-dictionary build
