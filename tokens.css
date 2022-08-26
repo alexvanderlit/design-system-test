@@ -26,21 +26,19 @@ h1, h2, h3, h4 {
 
 
 body {
-  background-color: var(--global-body-background);
+  background-color: var(--global-background-body-main);
 }
 
 .bg-white {
-  /*background-color: #333;*/
-  background-color: var(--global-card-background);
-
+  background-color: var(--global-background-card);
 }
 
 
 .vfz-hero-container.bg-white {
-  background-color: var(--global-body-background-main);
+  background-color: var(--global-background-body-main);
   /*background-color: #000;*/
 }
 .vfz-hero-container.bg-light {
-  background-color: var(--global-body-background-light);
+  background-color: var(--global-background-body-light);
   /*background-color: #111;*/
 }
