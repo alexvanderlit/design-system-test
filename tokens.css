@@ -1,4 +1,4 @@
-@import "build/css/_variables.css";
+@import "output/css/_variables.css";
 
 .footer__column-title h3, a, body .cookiewall__cookiewall .content h2 {
   color:var(--global-primary-primary-main)
