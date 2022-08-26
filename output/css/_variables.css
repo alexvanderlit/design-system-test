@@ -1,10 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Fri, 26 Aug 2022 06:54:44 GMT
+ * Generated on Fri, 26 Aug 2022 07:18:36 GMT
  */
 
 :root {
   --global-primary-primary-main: #c501ff;
   --global-primary-secondary-main: #b9c7bb;
   --global-primary-tertiary-main: #c9e6e6;
+  --global-background-card: #333;
+  --global-background-body-main: #000;
+  --global-background-body-light: #151515;
 }
